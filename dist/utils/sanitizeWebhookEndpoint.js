@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sanitizeWebhookEndpoint = void 0;
+exports.sanitizeWebhookEndpoint = sanitizeWebhookEndpoint;
 function sanitizeWebhookEndpoint(endpoint) {
     try {
         const parsedUrl = new URL(endpoint);
@@ -10,5 +10,4 @@ function sanitizeWebhookEndpoint(endpoint) {
         throw new Error(`Invalid webhook endpoint, expected valid URL, got "${endpoint}"`);
     }
 }
-exports.sanitizeWebhookEndpoint = sanitizeWebhookEndpoint;
 //# sourceMappingURL=sanitizeWebhookEndpoint.js.map

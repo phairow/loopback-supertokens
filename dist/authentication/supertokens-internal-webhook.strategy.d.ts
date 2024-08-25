@@ -1,4 +1,3 @@
-/// <reference types="express" />
 import { AuthenticationStrategy } from '@loopback/authentication';
 import { OperationObject, RedirectRoute, Request, RequestBodyParser } from '@loopback/rest';
 import { UserProfile } from '@loopback/security';

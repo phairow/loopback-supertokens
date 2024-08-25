@@ -1,6 +1,6 @@
 {
   "name": "loopback-supertokens",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "LoopBack extensions for authentication and authorization using SuperTokens",
   "keywords": [
     "LoopBack",
@@ -34,15 +34,16 @@
     "axios": "^1.6.2"
   },
   "devDependencies": {
-    "@loopback/authentication": "^10.1.4",
-    "@loopback/authorization": "^0.14.4",
-    "@loopback/boot": "^6.1.4",
-    "@loopback/core": "^5.1.4",
-    "@loopback/repository": "^6.1.4",
-    "@loopback/rest": "^13.1.4",
-    "@loopback/security": "^0.10.4",
-    "@loopback/service-proxy": "^6.1.4",
-    "@loopback/testlab": "^6.1.4",
+    "@loopback/authentication": "^11.0.5",
+    "@loopback/authorization": "^0.15.5",
+    "@loopback/boot": "^7.0.5",
+    "@loopback/core": "^6.1.2",
+    "@loopback/repository": "^7.0.5",
+    "@loopback/rest": "^14.0.5",
+    "@loopback/rest-explorer": "^7.0.5",
+    "@loopback/service-proxy": "^7.0.5",
+    "@loopback/security": "^0.11.5",
+    "@loopback/testlab": "^7.0.5",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/expect": "^24.3.0",
@@ -62,14 +63,14 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "@loopback/authentication": "^10.1.4",
-    "@loopback/authorization": "^0.14.4",
-    "@loopback/boot": "^6.1.4",
-    "@loopback/core": "^5.1.4",
-    "@loopback/repository": "^6.1.4",
-    "@loopback/rest": "^13.1.4",
-    "@loopback/security": "^0.10.4",
-    "@loopback/testlab": "^6.1.4",
+    "@loopback/authentication": "^11.0.5",
+    "@loopback/authorization": "^0.15.5",
+    "@loopback/boot": "^7.0.5",
+    "@loopback/core": "^6.1.2",
+    "@loopback/repository": "^7.0.5",
+    "@loopback/rest": "^14.0.5",
+    "@loopback/security": "^0.11.5",
+    "@loopback/testlab": "^7.0.5",
     "supertokens-node": "^16.6.8"
   },
   "publishConfig": {

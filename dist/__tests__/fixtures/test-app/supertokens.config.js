@@ -3,7 +3,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.configureSupertokens = exports.supertokens = void 0;
+exports.supertokens = void 0;
+exports.configureSupertokens = configureSupertokens;
 const supertokens_node_1 = __importDefault(require("supertokens-node"));
 const emailpassword_1 = __importDefault(require("supertokens-node/recipe/emailpassword"));
 const session_1 = __importDefault(require("supertokens-node/recipe/session"));
@@ -25,5 +26,4 @@ function configureSupertokens() {
         },
     });
 }
-exports.configureSupertokens = configureSupertokens;
 //# sourceMappingURL=supertokens.config.js.map
